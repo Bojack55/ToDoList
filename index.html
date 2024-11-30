@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Todo List</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <h1>My Todo List</h1>
+
+  <!-- Add Project Section -->
+  <div id="project-form">
+    <h2>Add a New Project</h2>
+    <input type="text" id="new-project" placeholder="Enter project name" />
+    <button id="add-project">Add Project</button>
+  </div>
+
+  <!-- List of Projects -->
+  <div id="project-list">
+    <!-- Projects will appear here dynamically -->
+  </div>
+
+  <!-- Add Todo Section -->
+  <div id="todo-form">
+    <h2>Add Todo</h2>
+    <input type="text" id="todo-title" placeholder="Enter todo title" />
+    <input type="text" id="todo-description" placeholder="Enter todo description" />
+    <input type="date" id="todo-due-date" />
+    <button id="add-todo">Add Todo</button>
+  </div>
+
+  <footer>
+    <p>Created with ❤️ by <a href="#">Bojack</a></p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
